@@ -1,0 +1,16 @@
+input{
+    border:none;
+    padding:1.5vh 2vh;
+    margin-top:2vh;
+    min-width:190px;
+    border-radius:5vh;
+    outline:none;
+    font-size:14px;
+    background:white;
+    box-shadow:rgba(0,0,0,0.2) 0 5px 8px;
+}
+
+input::placeholder{
+    color:rgb(179, 175, 175);
+    font-weight:400;
+}

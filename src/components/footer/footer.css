@@ -1,0 +1,34 @@
+.footer{
+    width:90%;
+    min-height:10vh;
+    background:rgb(39, 39, 39);
+    padding:3vh 5%;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.footer img{
+    height:11vh;
+    width:auto;
+}
+.developer-info{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+.developer-info p{
+    margin:0;
+    font-weight:600;
+    color:rgb(141, 140, 140);
+}
+.developer-info img{
+   height:6vh;
+   width:auto;
+   margin:0;
+}
+.dev-profile{
+    margin:1vh 0;
+    display:flex;
+
+}

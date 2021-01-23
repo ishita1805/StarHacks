@@ -1,0 +1,101 @@
+.navigation-container{
+    display:flex;
+    flex-direction:row;
+    width:100vw;
+    overflow-x:hidden;
+    min-height:100vh;
+}
+.navigation{
+    height:100vh;
+    width:70px;
+    padding:5vh 10px;
+    position:fixed;
+}
+.navigation img{
+  width:100%;
+  height:auto;
+}
+.content{
+    margin-left:90px;
+    padding:5vh 3%;
+    display:flex;
+    flex-direction:column;
+    min-height:90vh;
+    background:white;
+    flex-grow:1;
+}
+.nav-icons{
+    margin:0 5%;
+    margin-top:14vh;
+    display:flex;
+    width:90%;
+    background:rgb(36, 36, 36);
+    padding-top:4vh;
+    border-radius:5vh;
+    min-height:20vh;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+}
+.nav-icon{
+    font-size:27px;
+    color:rgb(88, 88, 88);
+    margin-bottom:4vh;
+    cursor:pointer
+}
+.nav-icon-active{
+    color:white;
+}
+@media screen and (max-width:850px){
+    .navigation-container{
+        display:flex;
+        flex-direction:column-reverse;
+        width:100vw;
+        overflow-x:hidden;
+        background:pink;
+        padding:0;
+        margin:0;
+        min-height:100vh;
+    }
+    .content{
+        margin:0;
+        padding:5vh 3%;
+        margin-bottom:0;
+        display:flex;
+        flex-direction:column;
+        min-height:90vh;
+        background:white;
+        width:94vw;
+        flex-grow:1;
+    }
+    .navigation{
+        height:90px;
+        width:90vw;
+        padding:3vh 5vw;
+        position:fixed;
+        z-index:500;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .nav-icons{
+        margin:10px 0;
+        display:flex;
+        width:auto;
+        background:rgb(36, 36, 36);
+        padding:1vh 2vh;
+        border-radius:5vh;
+        min-height:40px;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .nav-icon{
+        margin-bottom:1vh;
+        margin-left:3vh;
+        margin-right:3vh;
+    }
+    .navigation img{
+       display:none;
+      }
+}

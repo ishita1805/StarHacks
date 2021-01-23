@@ -1,0 +1,41 @@
+.banner{
+    width:100%;
+    background:pink;
+    min-height:30vh;
+    background:url('../../assets//k-mitch-hodge-KVdT9LVZPXc-unsplash.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-radius:30px 30px 0 0;
+    overflow:hidden;
+}
+.bh-40{
+    height:38vh;
+}
+.banner-inner{
+    width:100%;
+    min-height:30vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background:rgba(0, 0, 0, 0.411);
+    color:white;
+}
+.banner-inner h1{
+   font-size:40px;
+   margin:0;
+}
+.banner-inner p{
+    font-size:19px;
+    margin:0;
+}
+@media screen and (max-width:850px){
+    .banner-inner h1{
+        font-size:35px;
+        text-align:center;
+        margin:1vh;
+     }
+     .banner-inner p{
+         font-size:17px;
+     }
+}
