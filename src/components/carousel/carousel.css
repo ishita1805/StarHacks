@@ -1,0 +1,26 @@
+.carousel{
+    height:25vh;
+    margin-top:1vh;
+    margin-bottom:2vh;
+    background:rgb(255, 226, 95);
+    display:flex;
+    cursor:pointer;
+    flex-direction:row;
+    overflow-x:scroll !important;
+    border-radius:20px;
+}
+.carousel-container{
+    margin-top:4vh;
+}
+.carousel-container p{
+   font-weight:600;
+   margin:0;
+   font-size:18px;
+   color:rgb(46, 46, 46);
+}
+.carousel-width-100{
+    width:100%;
+}
+.carousel-width-50{
+    width:50%;
+}
